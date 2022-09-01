@@ -12,12 +12,12 @@ public class EmojiBattle {
         a[3] = new Lutador("Brian", "Dinamarca", 40, 57f, 1.73f, 15, 15, 3);
 
 
-
+        Luta EMJ = new Luta();
+        EMJ.marcarLuta(a[0], a[1]);
+        EMJ.lutar();
         a[0].status();
         a[1].status();
-        a[2].status();
-        a[3].setPeso(5);
-        a[3].status();
+
     }
     
 }
